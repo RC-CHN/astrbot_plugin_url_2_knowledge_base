@@ -7,11 +7,11 @@ from astrbot.api import logger, AstrBotConfig
     "v1.0.0"
 )
 class Url2KbPlugin(Star):
-    def __init__(self, context: Context, config: AstrBotConfig):
+    def __init__(self, context: Context):
         super().__init__(context)
 
     async def initialize(self):
-        logger.info("该项目已废弃")
+        logger.info("该项目已废弃,原始代码留档于仓库deprecated分支内")
 
     async def terminate(self):
         """插件停用时调用的方法。"""
