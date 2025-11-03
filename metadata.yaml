@@ -1,0 +1,5 @@
+name: astrbot_plugin_url_2_knowledge_base
+desc: 通过 URL 提取内容，并经过处理、聚类和总结后，生成知识库文件。
+version: v1.0.0
+author: RC-CHN
+repo: https://github.com/RC-CHN/astrbot_plugin_url_2_knowledge_base
